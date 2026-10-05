@@ -5,9 +5,9 @@ angular.module('ngApp.controllers')
 .controller('D3Ctrl', ['$scope', '$state', function($scope, $state) {
 	var debug = false;
 
-	$scope.distance = 40;
+	$scope.distance = 0;
 	$scope.distanceUnit = 'm';
-	$scope.amps = 10;
+	$scope.amps = 0;
 	$scope.volts = 120;
 	$scope.drop = 5;
 	$scope.conductor = 'cu';
