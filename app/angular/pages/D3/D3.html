@@ -1,0 +1,63 @@
+<div id="pageD3">
+
+	<div class="section">
+		<div class="section-title">
+			<div class="section-content">
+
+				<div class="section-left">
+					<label>Distance:</label>
+					<input class="input-type-number" type="number" ng-model="distance">
+					<input class="margin-left-10" type="radio" value="m" ng-model="distanceUnit" checked>
+					<span>m</span>
+					<input class="margin-left-10" type="radio" value="ft" ng-model="distanceUnit">
+					<span>ft</span>
+					<br><br>
+
+					<label>Ampacity:</label>
+					<input class="input-type-number" type="number" ng-model="amps">
+					<br><br>
+
+					<label>System Voltage:</label>
+					<input class="input-type-number" type="number" ng-model="volts">
+					<br><br>
+
+					<label>% Voltage Drop:</label>
+					<input class="input-type-number" type="number" ng-model="drop">
+					<br><br>
+
+					<label>Conductor Type:</label>
+					<input type="radio" value="cu" ng-model="conductor" checked>
+					<span>Cu</span>
+					<input class="margin-left-10" type="radio" value="al" ng-model="conductor">
+					<span>Al</span>
+					<br><br>
+
+					<label>Rated Insulation Temp:</label>
+					<input class="input-type-number" type="number" ng-model="insulationTemp">
+					<br><br>
+
+					<label>Ambient Temp:</label>
+					<input class="input-type-number" type="number" ng-model="ambientTemp">
+					<br><br>
+
+					<label># of Conductors:</label>
+					<input class="input-type-number" type="number" ng-model="conductorCount">
+					<br><br>
+				
+				 <!-- 
+					<input id="inputFile" type="file" accept=".txt,.csv,.json,.pdf" onchange="dataIO.fileChangedHandler(event)">
+					<br><br>
+				 -->
+
+					<input type="button" value="Submit" ng-click="submit()">
+					<br><br>
+
+					<label>AWG Size:</label>
+					<span>{{answer}}</span>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+</div>

@@ -1,0 +1,74 @@
+.section {
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+.section-title {
+	font-size: 36px;
+	margin-top: 15px;
+}
+
+.section-content {
+	font-size: 14px;
+	line-height: 24px;
+	display: flex;
+}
+
+.section-left {
+	float: left;
+}
+
+.section-right {
+	float: right;
+	margin: auto;
+}
+
+.section-below {
+	clear: both;
+	float: left;
+	width: 100%;
+	margin-top: 20px; /* Adjust as needed for spacing */
+}
+
+/* Clear fix for parent container */
+.section-above::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+label {
+	display: inline-block;
+	width: 170px;
+}
+
+.input-type-number {
+	width: 45px;
+}
+
+@media (max-width: 759px) {
+	#mainContent > .container {
+		padding-top: 50px !important;
+		padding-bottom: 50px !important;
+	}
+
+	.section-title {
+		font-size: 28px;
+	}
+}
+
+@media (max-width: 679px) {
+
+}
+
+@media (max-width: 599px) {
+
+}
+
+@media (max-width: 419px) {
+
+}
+
+@media (max-width: 399px) {
+	
+}

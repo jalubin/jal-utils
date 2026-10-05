@@ -1,0 +1,24 @@
+<div class="upper-footer horizontally-center vertical-padding-10">
+	<div class="container">
+		<a href="{{homepage}}"><img src="assets/images/footer-logo.png"></a>
+	</div>
+	<div class="container">
+		<div class="horizontal-list-element" ng-repeat="button in socialMediaButtons">
+			<a class="social-media-button" href="{{button.url}}" target="_blank"><i class="fa fa-{{button.icon}}"></i></a>
+		</div>
+	</div>
+</div>
+
+<div class="lower-footer horizontally-center vertical-padding-10">
+	<div class="container">
+		<div class="horizontal-list-element">
+			<a href="#/privacy">Privacy Policy</a>
+		</div>
+		<div class="horizontal-list-element">|</div>
+		<div class="horizontal-list-element">
+			<a href="#/legal">Legal</a>
+		</div>
+		<div class="horizontal-list-element">|</div>
+		<div class="horizontal-list-element">&copy; 2021 Jesse Lubin</div>
+	</div>
+</div>

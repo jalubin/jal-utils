@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+	<head>
+		<base href="./">
+
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+		<meta name="viewport" content="user-scalable=yes, initial-scale=1.0, width=device-width, height=device-height">
+		<meta name="description" content="jal-utils">
+
+		<link rel="icon" type="image/png" href="assets/images/favicon.png">
+		<title>jal-utils</title>
+
+		<!-- Fonts -->
+		<link rel="stylesheet" type="text/css" href="assets/fonts/fontawesome/css/font-awesome.min.css">
+
+		<!-- 3rd Party CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/lib/bootstrap3.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/lib/animate.css">
+
+		<!-- App CSS -->
+		<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/content.css">
+
+		<!-- Angular -->
+		<script type="text/javascript" src="assets/lib/angular/angular-1.4.5.min.js"></script>
+		<script type="text/javascript" src="assets/lib/angular/angular-sanitize.min.js"></script>
+		<script type="text/javascript" src="assets/lib/angular/angular-ui-router-0.2.0.min.js"></script>
+
+		<!-- jQuery -->
+		<script type="text/javascript" src="assets/lib/jquery/jquery-2.2.4.min.js"></script>
+		<script type="text/javascript" src="assets/lib/jquery/jquery.injectCSS.js"></script>
+
+		<!-- 3rd Party Libs -->
+		<script type="text/javascript" src="assets/lib/underscore.min.js"></script>
+		<script type="text/javascript" src="assets/lib/moment.min.js"></script>
+		<script type="text/javascript" src="assets/lib/is.min.js"></script>
+		<script type="text/javascript" src="assets/lib/fastclick.min.js"></script>
+		<script type="text/javascript" src="assets/lib/bowser.min.js"></script>
+		<script type="text/javascript" src="assets/lib/papaparse.min.js"></script>
+		<script type="text/javascript" src="assets/lib/big-decimal.min.js"></script>
+		<!-- <script type="text/javascript" src="assets/lib/firebase-app.min.js"></script> -->
+		<!-- <script type="text/javascript" src="assets/lib/firebase-database.min.js"></script> -->
+		<!-- <script type="text/javascript" src="assets/lib/chart.js"></script> -->
+
+		<!-- Data -->
+		<script type="text/javascript" src="data/tables.js"></script>
+
+		<!-- Data IO -->
+		<script type="text/javascript" src="app/io/dataIO.js"></script>
+
+		<!-- Services -->
+		<script type="text/javascript" src="app/services/helpers.js"></script>
+		<script type="text/javascript" src="app/services/curl.js"></script>
+
+		<!-- Angular App -->
+		<script type="text/javascript" src="app/angular/config.js"></script>
+		<script type="text/javascript" src="app/angular/angularApp.js"></script>
+
+		<!-- Pages -->
+		<script type="text/javascript" src="app/angular/pages/home/home.js"></script>
+		<script type="text/javascript" src="app/angular/pages/D3/D3.js"></script>
+
+		<!-- Components -->
+		<script type="text/javascript" src="app/angular/components/header/header.js"></script>
+		<script type="text/javascript" src="app/angular/components/footer/footer.js"></script>
+		<script type="text/javascript" src="app/angular/components/select/select.js"></script>
+		<!-- <script type="text/javascript" src="app/angular/components/chart/chart.js"></script> -->
+
+		<!-- Global site tag (gtag.js) - Google Analytics -->
+		<!-- todo -->
+	</head>
+
+	<body data-ng-app="ngApp">
+		<div id="mainContainer" class="container vertically-scrollable">
+			<div id="mainHeader" data-main-header></div>
+			<div id="mainContent" data-ui-view data-autoscroll="false"></div>
+			<!-- <div id="mainFooter" data-main-footer></div> -->
+		</div>
+	</body>
+
+</html>
