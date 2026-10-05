@@ -57,6 +57,14 @@ angular.module('ngApp.controllers')
 			return;
 		}
 
+		$scope.distance = Number($scope.distance);
+		$scope.amps = Number($scope.amps);
+		$scope.volts = Number($scope.volts);
+		$scope.drop = Number($scope.drop);
+		$scope.insulationTemp = Number($scope.insulationTemp);
+		$scope.ambientTemp = Number($scope.ambientTemp);
+		$scope.conductorCount = Number($scope.conductorCount);
+
 		var distance = $scope.distance;
 		if ($scope.distanceUnit == 'ft') distance *= 0.3048; // 1 ft = 0.3048 m
 		if (debug) console.log(distance)
